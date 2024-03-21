@@ -27,15 +27,33 @@ body {
     align-items: center;
 }
 
-.card span {
+
+.card .card_subtitle {
+    color: #007bff;
+}
+
+.card .ic_box {
     color: #8280FF;
 }
+
+.card .ic_up {
+    color: #4AD991;
+}
+
+.card .ic_down {
+    color: #FF9871;
+}
+
+.card .ic_user {
+    color: #FEC53D;
+}
+
 
 .card h4 {
     font-weight: 500;
 }
 
-.card .circle {
+.card .circle_box {
     height: 150px;
     width: 150px;
     background-color: #E4E4FF;
@@ -43,7 +61,40 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 15px;
+}
+
+.card .circle_up {
+    height: 150px;
+    width: 150px;
+    background-color: #D9F7E7;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.card .circle_down {
+    height: 150px;
+    width: 150px;
+    background-color: #FFDED2;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.card .circle_user {
+    height: 150px;
+    width: 150px;
+    background-color: #FEF2D6;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
 }
 
 
@@ -59,18 +110,11 @@ body {
     font-size: 1rem;
 }
 
-.btn-primary {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-}
+
 
 .angka_barang {
     color: #00B69B;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 .link_detail {
