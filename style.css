@@ -1,0 +1,16 @@
+body {
+    font-family: 'Poppins';
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.dropdown {
+    text-decoration: none;
+}
+
+.nav-item p {
+    font-size: 30px;
+}
