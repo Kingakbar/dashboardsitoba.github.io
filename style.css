@@ -154,4 +154,8 @@ body {
         padding: 8px 16px;
         font-size: 0.9rem;
     }
+
+    .card_subtitle {
+        text-align: center;
+    }
 }
